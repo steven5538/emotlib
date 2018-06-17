@@ -2,7 +2,9 @@
 
 # 👨‍🚀👩‍🚀
 
-__all__ = ['EMOJI_UNICODE', 'EMOJIS', 'EMOJI_CATEGORIES']
+__all__ = [
+    'EMOJI_UNICODE', 'EMOJIS', 'EMOJI_CATEGORIES', 
+    'UNICODE_EMOJI_WITHOUT_CATEGORY', 'EMOJI_UNICODE_WITHOUT_CATEGORY']
 
 EMOJI_UNICODE = {
     u'face-positive': {
@@ -2956,5 +2958,9 @@ EMOJI_UNICODE = {
 
 EMOJI_CATEGORIES = list(EMOJI_UNICODE.keys())
 EMOJIS = []
+EMOJI_UNICODE_WITHOUT_CATEGORY = {}
+UNICODE_EMOJI_WITHOUT_CATEGORY = {}
 for category in EMOJI_UNICODE.keys():
     EMOJIS += list(EMOJI_UNICODE[category].values())
+    EMOJI_UNICODE_WITHOUT_CATEGORY.update({k: v for k, v in EMOJI_UNICODE[category].items()})
+    UNICODE_EMOJI_WITHOUT_CATEGORY.update({v: k for k, v in EMOJI_UNICODE[category].items()})

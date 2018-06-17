@@ -2,7 +2,7 @@
 
 # (<ゝω・)☆
 
-__all__ = ['EMOTICON_UNICODE', 'EMOTICONS', 'EMOTICON_MOTIONS']
+__all__ = ['EMOTICON_UNICODE', 'EMOTICONS', 'EMOTICON_FEELS']
 
 EMOTICON_UNICODE = {
     u'happy': [
@@ -719,7 +719,7 @@ EMOTICON_UNICODE = {
     ]
 }
 
-EMOTICON_MOTIONS = list(EMOTICON_UNICODE.keys())
+EMOTICON_FEELS = list(EMOTICON_UNICODE.keys())
 EMOTICONS = []
 for motion in EMOTICON_UNICODE.keys():
     EMOTICONS += EMOTICON_UNICODE[motion]
