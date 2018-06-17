@@ -59,3 +59,19 @@ def emoticon(feel='', num=1, sep=''):
     if feel and feel.lower() in EMOTICON_MOTIONS:
         return choice(EMOTICON_UNICODE[feel.lower()])
     return choice(EMOTICONS)
+
+
+def emojify(text):
+    None
+
+
+def emoticonify(text):
+    None
+
+
+def demojify(text):
+    None
+
+
+def demoticonify(text):
+    None
