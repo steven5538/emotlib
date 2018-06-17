@@ -4,7 +4,7 @@
 
 __all__ = ['EMOTICON_UNICODE', 'EMOTICONS', 'EMOTICON_MOTIONS']
 
-EMOTICON_UNICODE =  {
+EMOTICON_UNICODE = {
     u'happy': [
         u'( ͡° ͜ʖ ͡°)', u'∠( ᐛ 」∠)＿', u'(ﾟ⊿ﾟ)', u'ᕕ( ᐛ )ᕗ', u'_へ__(‾◡◝ )>',
         u'( ᐛ )و', u'( ´ ▽ ` )ﾉ', u'(*^▽^*)', u'(´∇ﾉ｀*)ノ', u'(ノ^∇^)',

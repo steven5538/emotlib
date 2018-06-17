@@ -17,6 +17,10 @@ Example
 >> import emotlib
 >> print(emotlib.emoji())
 🧙‍
+>> print(emotlib.emoji(num=3))
+👨‍🚀👨‍🚀👨‍🚀
 >> print(emotlib.emoticon())
 ( ´ ▽ ` )ﾉ
+>> print(emotlib.emoticon(num=5, sep=' ~ '))
+(´∇ﾉ｀*)ノ ~ (´∇ﾉ｀*)ノ ~ (´∇ﾉ｀*)ノ ~ (´∇ﾉ｀*)ノ ~ (´∇ﾉ｀*)ノ ~ 
 ```
