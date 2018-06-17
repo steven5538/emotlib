@@ -89,7 +89,7 @@ def emojify(text, alias='_'):
         I'm 👨‍💻
     """
 
-    pattern = re.compile(u"(:[%sa-zA-Z0-9&.()!$_ ]*:)" % alias)
+    pattern = re.compile(u'(:[%sa-zA-Z0-9&.()!$_ ]*:)' % alias)
 
     def repl(match):
         val = match.group(1)[1:-1].replace(alias, ' ')

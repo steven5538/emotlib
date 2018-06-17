@@ -1,13 +1,11 @@
 # emotlib: Python emoji + emoticon Library
 
-
-![PyPI - Python Version](https://img.shields.io/pypi/pyversions/emotlib.svg)
-![PyPI](https://img.shields.io/pypi/v/emotlib.svg)
-![Travis branch](https://img.shields.io/travis/steven5538/emotlib/master.svg)
-![Coveralls github](https://img.shields.io/coveralls/github/steven5538/emotlib.svg)
-![Read the Docs](https://img.shields.io/readthedocs/emotlib.svg)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/emotlib.svg)](https://pypi.org/project/emotlib/)
+[![PyPI](https://img.shields.io/pypi/v/emotlib.svg)](https://pypi.org/project/emotlib/)
+[![Travis branch](https://img.shields.io/travis/steven5538/emotlib/master.svg)](https://travis-ci.org/steven5538/emotlib)
+[![Coveralls github](https://img.shields.io/coveralls/github/steven5538/emotlib.svg)](https://coveralls.io/github/steven5538/emotlib)
+[![Read the Docs](https://img.shields.io/readthedocs/emotlib.svg)](http://emotlib.readthedocs.io/en/latest/)
 ![PyPI - License](https://img.shields.io/pypi/l/emotlib.svg)
-
 
 Installation
 ------------
