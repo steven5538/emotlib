@@ -72,7 +72,7 @@ setup(
     python_requires=">=2.6, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*",
     license=about['__license__'],
     classifiers=(
-        'Development Status :: 1 - Planning',
+        'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
         'Natural Language :: Chinese (Traditional)',
         "License :: OSI Approved :: MIT License",
