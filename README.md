@@ -3,6 +3,8 @@
 
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/emotlib.svg)
 ![PyPI](https://img.shields.io/pypi/v/emotlib.svg)
+![Travis branch](https://img.shields.io/travis/steven5538/emotlib/master.svg)
+![Coveralls github](https://img.shields.io/coveralls/github/steven5538/emotlib.svg)
 ![PyPI - License](https://img.shields.io/pypi/l/emotlib.svg)
 
 
