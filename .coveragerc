@@ -1,0 +1,3 @@
+[run]
+omit =
+    emotlib/__version__.py
